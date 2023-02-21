@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/f78c7f819e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Cabecera-->
+    <header class="header">
+      <!-- Elementos de la cabecera-->
+      <nav class="cabecera">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#banner2">Sobre mi</a></li>
+          <li><a href="#carrusel">Trabajo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner">
+      <img class="logo" src="images/logoblanco.png" alt="" />
+      <div class="inicio">
+        <p>
+          José Carlos Torres, bajo el nombre del nombre artístico Carlos Moreno,
+          es un amante de la música desde bien pequeño, siendo sus géneros
+          favoritos el Urbano y el Techno.
+          <br />
+          <br />
+          Empezó a ser DJ en el 2019 y desde entonces ha sido un no parar de
+          bolos por varias discotecas de Sevilla y Eventos Privados por toda
+          Andalucía
+        </p>
+      </div>
+      <img class="bg" src="images/fondo.jpg" alt="" />
+    </div>
+
+    <div id="banner2">
+      <img class="bg2" src="images/volteo.jpg" alt="" />
+
+      <div class="inicio2">
+        <p>
+          Un año más tarde de empezar a pinchar, ya dió el paso a trabajar en
+          algunas salas de Sevilla, creando su propio público formado
+          principalmente por jóvenes de la ciudad.
+          <br />
+          <br />
+          A partir de entonces no ha dejado de perfeccionar su técnica y estilo
+          hasta trabajar en grandes discotecas como B3 y Baracoa en Sevilla o
+          MamaJuana y Catrina en Huelva.
+          <br />
+          <br />
+          Actualmente es residente de 2 salas de Sevilla, Bestiario y Maruja
+          Melón. Pero en su corto recorrido ha pasado por muchisimos sitios como
+          Marie Brases, Baracoa, California, La Biblioteca, La Piconera,
+          O'Neills, Catrina, MamaJuana, Chiringuitos de la costa e incluso en
+          Jaén en Sala Hunter y Sala B en Madrid
+          <br />
+          <br />
+
+          Además de trabajar en discotecas, tambíen trabaja en eventos privados
+          como bodas y celebraciones.
+        </p>
+      </div>
+    </div>
+
+    <!-- Intento de Carrusel Bootstrap-->
+    <section id="carrusel">
+      <div class="etapas">
+        <h1>Galería de trabajo y RRSS</h1>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="trabajos/LIBANO 3.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="trabajos/libano.jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="trabajos/libano1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="trabajos/libano2.jpg" class="d-block w-100" alt="..." />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="trabajos/teteria.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="trabajos/teteria2.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="trabajos/california.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="trabajos/maruja.jpeg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="logoinsta">
+      <i href="https://www.instagram.com/carlomorenodj/" class="fa-brands fa-instagram"></i>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+ }
+
+
+body{
+
+    background: black;
+    background-size:cover;
+    width: 100%;
+    height: 1000vh;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+
+
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/*--------------------BARRA DE NAVEGACIÓN-------------------------------- */
+  
+nav{
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    position: static;
+    padding-top: 10px;
+  }
+  
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        position: static;
+        margin-top: 5px;
+    }
+  
+        nav ul li{
+            float: left;
+            margin-top: 10px;
+        }
+  
+            nav ul li a {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 1.2vw;
+                padding: 18px;
+                font-weight: 400;
+                font-family: 'Josefin Sans', sans-serif;
+                
+            }
+  
+                nav ul li a:hover{
+                    
+                    text-decoration: underline;
+                }
+
+/*--------------------BANNER-------------------------------- */
+
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+    
+}
+.bg{
+    width: 70%;
+    position: relative;
+    z-index: -1;
+    left: 0%;
+    top: 5%;
+}
+.fotobanner{
+    width: 100%;
+   height: 100%;
+    position: relative;
+    top: 0%;
+    align-items: center;
+    align-content: center;
+    left: 0%;
+    filter: blur(0.2px) brightness(0.60);
+    
+}
+.inicio{
+    width: 100%;
+}
+.inicio p{
+    width: 250%;
+    color:white;
+    position: relative;
+    top: 50%;
+    left: -200%;
+    text-align: justify;
+
+}
+.logo{
+    width: 30%;
+    height: 25%;
+    position: relative;
+    top: 20%;
+    left: 7%;
+    
+}
+
+#banner2{
+    margin-top: 5em;
+    margin-bottom: 10em;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    
+    
+}
+
+.inicio2{
+    width: 100%;
+}
+.inicio2 p{
+    width: 80%;
+    color: white;
+    position: relative;
+    top: 15%;
+   left: 10%;
+    text-align: justify;
+    z-index: 1;
+
+}
+.bg2{
+    width: 70%;
+    position: relative;
+    z-index: -1;
+    left: 0%;
+    top: 10%;
+}
+
+#carrusel{
+    top: 30vh;
+    position: relative;
+    width: 50%;
+   left: 25%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.logoinsta{
+    z-index: 10;
+    width: 100%;
+    left: 50%;
+    position: relative;
+    top: 40vh;
+}
