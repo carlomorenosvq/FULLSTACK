@@ -1,0 +1,10 @@
+Relación entre Cliente Servidor
+---------------------------------------
+
+Se relacionan a la hora de hacer una pagina web en 1 punto, y es que es imposible que un manejamiento de datos lo haga desde el Cliente (HTML, CSS etc)
+
+El servidor pasa los datos al cliente de alguna manera ya que el cliente sin datos no puede trabajar 
+
+Objeto XHR: sirve para recoger los datos que manda el cliente al servidor desde JS.
+XHR: XmlHttpRequest.
+
