@@ -25,9 +25,6 @@ function procesarCargaJson() {
 }
 
 
-let promesa = new Promise ();
-promesa.then();
-promesa.catch();
-promesa.finally();
+
 window.onload = cargaDatos() ;
 
