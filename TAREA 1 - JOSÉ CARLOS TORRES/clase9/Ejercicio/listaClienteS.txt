@@ -1,0 +1,36 @@
+Cliente número 3class Cliente extends Persona {
+  //Constructor
+  constructor(nombre, apellido, edad, listaCompra, dineroGastado) {
+    super(nombre, apellido, edad);
+
+    this.listaCompra = listaCompra;
+    this.dineroGastado = dineroGastado;
+  }
+
+  toString() {
+    return (
+      " Nombre: " +
+      this.nombre +
+      " Apellido: " +
+      this.apellido +
+      " Edad: " +
+      this.edad +
+      " Lista Compra: " +
+      this.listaCompra +
+      " Dinero Gastado: " +
+      this.dineroGastado);
+  }
+
+  getListaCompra() {
+    return this.listaCompra;
+  }
+  setListaCompra(listaCompra) {
+    this.listaCompra = listaCompra;
+  }
+  getDineroGastado() {
+    return this.dineroGastado;
+  }
+  setDineroGastado(dineroGastado) {
+    this.dineroGastado = dineroGastado;
+  }
+}
