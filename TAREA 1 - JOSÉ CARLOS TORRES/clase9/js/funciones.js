@@ -1,1 +1,3 @@
-console.log("Hola mundo");
+const fs = require('fs');
+
+console.log();
