@@ -95,11 +95,15 @@ let clientes = [cliente1, cliente2, cliente3, cliente4, cliente5];
 //   function () {}
 // );
 
-for (let i = 0; i < clientes.length; i++) {
-    fs.writeFile(
-        "listaClienteS.txt",
-        "Cliente número " + i + Cliente.toString(),
-        function () {}
-      );
+// for (let i = 0; i < clientes.length; i++) {
+//     fs.writeFile(
+//         "listaClienteS.txt",
+//         "Cliente número " + i + Cliente.toString(),
+//         function () {}, 
+//       );
     
-}
+// }
+
+clientes.forEach(cliente => {
+  fs.appendFile("listaCliente2.txt", cliente.toString() + "\n", function () {})
+});

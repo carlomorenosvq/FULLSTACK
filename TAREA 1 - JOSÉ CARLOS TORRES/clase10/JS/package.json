@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "colors": "^1.4.0"
+  }
+}

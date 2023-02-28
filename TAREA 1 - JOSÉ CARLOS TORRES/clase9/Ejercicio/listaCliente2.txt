@@ -1,0 +1,5 @@
+ Nombre: Cagdfos Apellido: Torres Edad: 23 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: Carlos Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: Paco Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: Ceros Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: Cagdfos Apellido: Torres Edad: 23 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: C645los Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34/n Nombre: Carlos Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34
+ Nombre: Paco Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34
+ Nombre: Ceros Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34
+ Nombre: C645los Apellido: Torres Edad: 24 Lista Compra: [paco, andres, hola] Dinero Gastado: 34
+ Nombre: Cagdfos Apellido: Torres Edad: 23 Lista Compra: [paco, andres, hola] Dinero Gastado: 34
