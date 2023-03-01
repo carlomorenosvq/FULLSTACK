@@ -21,3 +21,8 @@ $ = termina en
 i : No se diferencia Mayuscula o Minuscula
 g : puede encontrarse 1 o más veces
 m : multilinea 
+
+
+
+
+
