@@ -1,0 +1,23 @@
+Expresiones Regulares
+-------------------------------------------
+
+Las expresiones regulares son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas.
+
+^ = empieza por 
+$ = termina en
+[] = conjunto de caracteres 
+{} = cuantificadores repeticiones 
++ = una o mas ocurrencias 
+* = cero o mas ocurrencias 
+? = 0 o una ocurrencia 
+\d:[0-9]
+\D:[^0-9]
+\w:[a-zA-Z0-9_]
+\W:[^a-zA-Z0-9_]
+\s: espacio en blanco 
+| : alternancia 
+... : comodin
+() : aplicar reglas a subconjuntos 
+i : No se diferencia Mayuscula o Minuscula
+g : puede encontrarse 1 o más veces
+m : multilinea 
