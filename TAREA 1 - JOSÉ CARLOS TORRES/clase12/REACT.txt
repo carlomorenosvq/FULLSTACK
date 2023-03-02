@@ -1,0 +1,33 @@
+REACT ES UNA BIBLIOTECA
+
+Libreria y Framework
+------------------------------
+
+Framework: caja de herramiena con la que aprendemos a trabajar desde 0
+
+React es un Framework: basamos todo el trabajo en react 
+Basa su sistema en diseño atomico. Una pagina esta dividida en varios sectores.
+
+Atomo - molecula - organismo - template 
+
+Gracias a los template hacemos las paginas 
+
+input - atomo
+
+molecula - 3 input juntos 
+
+organismo - formulario 
+
+entidad con varios organismos de nivel superior = formulario 
+
+template = plantilla en la que basamos nuesta pagina
+----------------------------------------------
+
+React funciona con JS porque es muy facil de entender
+
+HTML <---> DOM <---> VIRTUAL DOM 
+
+Virtual DOM: Es un DOM que utiliza React 
+
+
+
