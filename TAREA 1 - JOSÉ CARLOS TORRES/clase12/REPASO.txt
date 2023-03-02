@@ -1,0 +1,20 @@
+DOM = DOCUMENT OBJECT NODE
+------------------------------------
+
+Windows -- HTML -- Elemento
+
+getElementById -- QuerySelector -- innerHTML
+
+querySelector se pone con () == (#A)
+
+NODE
+--------------------------------------
+
+Modulo FS = accede al sistema de ficheros
+Modulo HTTP: crea servidor en un puerto
+Modulo Stream 
+
+NPM = node package manager
+
+npm colors = cambiar colores de consola a tu gusto
+
